@@ -1,6 +1,7 @@
 # Mall-Customer-Segmentation
 
 This web application segments mall customers into distinct groups using the **K-Means Clustering algorithm**. It takes input such as Age, Annual Income, and Spending Score, then predicts the customer’s cluster based on their behavior and profile. The app helps identify patterns among shoppers for targeted marketing and business insights.
+
 ---
 
 ## Features
@@ -125,3 +126,4 @@ Mall-Customer-Segmentation/
 [Click here to view the deployed app](https://mall-customer-segmentation.onrender.com)
 
 ---
+
