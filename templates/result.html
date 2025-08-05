@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clustering Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Customer Segment</h2>
+    <p>The customer belongs to segment: <strong>{{ cluster }}</strong></p>
+    <a href="/">Cluster Another Customer</a>
+</div>
+</body>
+</html>

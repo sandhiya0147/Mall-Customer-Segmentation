@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mall Customer Clustering</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Cluster Mall Customer</h2>
+    <form action="/predict" method="POST">
+        {% for f in features %}
+        <label>{{ f }}:</label>
+        <input type="number" name="{{ f }}" required>
+        {% endfor %}
+        <input type="submit" value="Predict Cluster">
+    </form>
+</div>
+</body>
+</html>
